@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: currency-converter
+
+server:
+  servlet:
+    context-path: /currencyconverter
+
+external:
+  forex:
+    url: http://localhost:9090/forex/currencies

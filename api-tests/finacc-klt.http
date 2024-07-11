@@ -1,0 +1,9 @@
+PUT {{external.forex.url}}/currencyconverter/forex/convert
+Content-Type: application/json
+
+{
+    "amount": 100.00,
+    "base": "EUR",
+    "target": "INR"
+}
+
